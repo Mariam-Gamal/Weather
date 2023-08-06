@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="logo-box text-decoration-none" href="#">
+                <img src="images/logo.png" alt="logo" class="logo me-2"/>
+                <div class="logo-type">
+                    <h1 class="title fs-6 text-white fw-bold">Weather</h1>
+                    <small class="des">tagline goes here</small>
+                </div>
+            </a>
+          <button class="navbar-toggler mb-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Live cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+
+      <div class="banner">
+        <div class="container">
+            <form class="form">
+                <input type="text" placeholder="Find your location..." id="search">
+                <input type="button" value="Find" id="submit" >
+            </form>
+        </div>
+      </div>
+
+      <div class="forecast-table">
+        <div class="container">
+            <div class="forecast-box">
+            <div class="row" id="forecast" >
+                </div>
+            </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-8">
+                    <form action="#" class="form mb-4">
+                        <input type="text" placeholder="Enter your email to subscribe..." id="search">
+                        <input type="button" value="Subscribe">
+                    </form>
+                </div>
+                <div class="col-md-3 col-md-offest-1">
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="copy-right">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+      </footer>
+
+
+ 
+    
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
